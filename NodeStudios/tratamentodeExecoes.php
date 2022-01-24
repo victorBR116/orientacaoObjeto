@@ -16,7 +16,7 @@ class Newslatter{
 try { 
     
 $newslatter1 = new Newslatter();
-$newslatter1->cadastrarEmail("hugov6167");
+$newslatter1->cadastrarEmail("hugo.vi10@gmail.");
 } catch (Exception $e){
     echo "Mensagem:" . $e->getMessage() . PHP_EOL;
     echo "Código:" . $e->getCode() . PHP_EOL;
