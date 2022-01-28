@@ -1,8 +1,8 @@
 <?php
 
-require_once 'E:\Estudos\Alura\Orientação Objeto\src/Conta.php';
-require_once 'E:\Estudos\Alura\Orientação Objeto\src\Titular.php';
-require_once 'E:\Estudos\Alura\Orientação Objeto\src\CPF.php';
+require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo/Conta.php';
+require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\Titular.php';
+require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\CPF.php';
 
 
 $victor = new Titular(new CPF('123.456.789-10'), 'Victor Hugo Santos');
