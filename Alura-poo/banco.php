@@ -1,9 +1,11 @@
 <?php
 
-require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo/Conta.php';
-require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\Endereco.php';
-require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\Titular.php';
-require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\CPF.php';
+require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\autoload.php';
+
+use Alura\Banco\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Conta\Conta;
 
 $endereco = new Endereco('Taboão da serra', 'Saint Morritz', 'rua dos pertubado', '245');
 $victor = new Titular(new CPF('123.456.789-10'), 'Victor Hugo Santos', $endereco);

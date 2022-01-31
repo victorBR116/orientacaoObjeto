@@ -1,6 +1,6 @@
 <?php
 
-namespace Modelo;
+namespace Modelo\Banco\Conta;
 
 class CPF
 {
