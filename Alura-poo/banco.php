@@ -18,6 +18,9 @@ echo $primeiraConta->recuperaNomeTitular() . PHP_EOL;
 echo $primeiraConta->recuperaSaldo() . PHP_EOL;
 echo $primeiraConta->recuperaCpfTitular() . PHP_EOL;
 
+
+
+
 $gabrielle = new Titular(new CPF('432.675.124-18'), 'Gabrielle', $endereco);
 $segundaConta = new Conta ($gabrielle);
 
@@ -25,4 +28,3 @@ $endereco1 = new Endereco('Taboão da serra', 'Trianon', 'rua dos Goytacazes', '
 $terceiraConta = new Conta(new Titular(new CPF('123.453.132-12'), 'Zenilda', $endereco1));
 
 echo Conta::recuperaNumeroDeContas();
-
