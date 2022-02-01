@@ -3,9 +3,10 @@
 require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\autoload.php';
 
 use Alura\Banco\Modelo\Conta\Titular;
-use Alura\Banco\Modelo\Endereco;
-use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Endereco;
+use Alura\Banco\CPF;
 use Alura\Banco\Modelo\Conta\Conta;
+use Alura\Banco\Pessoa;
 
 $endereco = new Endereco('Taboão da serra', 'Saint Morritz', 'rua dos pertubado', '245');
 $victor = new Titular(new CPF('123.456.789-10'), 'Victor Hugo Santos', $endereco);
