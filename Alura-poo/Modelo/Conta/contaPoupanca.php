@@ -4,15 +4,8 @@ namespace Alura\Banco\Modelo\Conta;
 
 class ContaPoupanca extends Conta
 { 
-    public function saca(float $valorASacar): void
+    protected function percentualTarifa(): float
     {
-            $tarifaDeSaque = $valorASacar *0.03;
-            $valorSaque = $valorASacar + $tarifaDeSaque;
-            if ($valorSaque > $this -> saldo){
-                echo "Saldo indisponível";
-                return;
-            }
-            
-            $this->saldo -= $valorSaque;
-         }
+        return 0.03;
+    }
 }
