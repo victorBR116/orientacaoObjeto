@@ -1,10 +1,7 @@
 <?php
-require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\autoload.php';
 
-use Alura\Banco\Modelo\Conta\ContaPoupanca;
-use Alura\Banco\Modelo\Conta\Titular;
-use Alura\Banco\CPF;
-use Alura\Banco\Endereco;
+use Alura\Banco\Modelo\Conta\{ContaPoupanca, ContaCorrente, Titular};
+use Alura\Banco\{CPF, Endereco};
 
 
 
