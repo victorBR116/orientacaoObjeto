@@ -6,7 +6,7 @@ use Alura\Banco\Pessoa;
 use Alura\Banco\CPF;
 use Alura\Banco\Endereco;
 
-class Titular extends Pessoa
+class Titular extends Pessoa implements Autenticavel
 {
     private  $endereco;
     
@@ -18,5 +18,10 @@ class Titular extends Pessoa
     public function recuperaEndereco()
     {
         return $this->endereco;
+    }
+
+    public function podeAutenticar(string $senha): bool
+    {
+        return $senha === "SenhadoUsuario";
     }
 }

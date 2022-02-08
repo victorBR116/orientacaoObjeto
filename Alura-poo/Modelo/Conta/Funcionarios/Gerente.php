@@ -2,10 +2,18 @@
 
 namespace Alura\Banco\Modelo\Conta\Funcionarios;
 
-class Gerente extends Funcionario
+use Alura\Banco\Modelo\Conta\Autenticavel;
+use ReflectionFunctionAbstract;
+
+class Gerente extends Funcionario implements Autenticavel
 {
     public function CalculaBonificacao(): float
     {
         return $this->recuperaSalario();
+    }
+    
+    public function podeAutenticar(string $senha): bool
+    {
+        return $senha === 'SenhadoGerente';
     }
 }
