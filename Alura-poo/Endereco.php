@@ -2,7 +2,11 @@
 
 namespace Alura\Banco;
 
-class Endereco{
+use Alura\Banco\Modelo\Conta\Acessando;
+
+final class Endereco{
+    use Acessando;
+
     private string $cidade;
     private string $bairro;
     private string $rua;
@@ -34,5 +38,19 @@ class Endereco{
     public function recuperaNumero(): string
     {
         return $this->numero;
+    }
+
+    public function __toString(): string
+    {
+        return "{$this->rua}, {$this->numero}, {$this->bairro}, {$this->cidade}";
+    }
+    public function AlteraBairro($newBairro): void{
+        $this->bairro = $newBairro;
+    }
+
+    public function __set($alteraai, $value)
+    {
+     $alteraai = 'Altera' . ucfirst($alteraai);
+     $this->$alteraai($value);   
     }
 }

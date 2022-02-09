@@ -2,7 +2,7 @@
 
 namespace Alura\Banco;
 
-class CPF
+final class CPF
 {
     private $numero;
 

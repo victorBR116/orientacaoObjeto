@@ -2,14 +2,17 @@
 
  namespace Alura\Banco;
 
- abstract class Pessoa 
+use Alura\Banco\Modelo\Conta\Acessando;
+
+abstract class Pessoa 
 {
+    use Acessando;
     protected string $nome;
     private CPF $cpf;
 
     public function __construct(string $nome, CPF $cpf)
     {
-        $this->validaNomeTitular($nome);
+        $this->validaNome($nome);
         $this->nome = $nome;
         $this->cpf = $cpf;
     }
@@ -24,7 +27,7 @@
         return $this->cpf->recuperaNumero();
     }
        
-    protected function validaNomeTitular(string $nomeTitular)
+    final protected function validaNome(string $nomeTitular)
     {
         
         if(strlen($nomeTitular) < 5){
