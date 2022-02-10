@@ -1,11 +1,12 @@
 <?php
+require_once 'E:\Estudos\Alura\Orientação Objeto\Alura-poo\autoload.php';
 
 use Alura\Banco\Modelo\Conta\{ContaPoupanca, ContaCorrente, Titular};
 use Alura\Banco\{CPF, Endereco};
 
 
 
-$conta34 = new ContaPoupanca(
+$conta34 = new ContaCorrente(
     new Titular
     (new CPF('123.456.987-78'),
      'João Gomes', 
