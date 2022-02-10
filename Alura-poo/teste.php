@@ -8,4 +8,4 @@ use Alura\Banco\Modelo\Conta\Funcionarios\Desenvolvedor;
 
 $umdesenvolvedor = new Desenvolvedor('Victor Hugos Santos', new CPF('123.456.789-10'), 1200);
 
-echo $umdesenvolvedor->nome;
+echo $umdesenvolvedor->salario;
