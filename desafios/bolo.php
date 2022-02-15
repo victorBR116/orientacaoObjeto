@@ -16,3 +16,5 @@ $primeiroBolo->sabor = "Chocolate";
 $primeiroBolo->cobertura = "Chocolate" ;
 
 var_dump($primeiroBolo);
+
+echo $primeiroBolo->ingredientes;
