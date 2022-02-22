@@ -11,7 +11,6 @@ $funcionario111 = new Desenvolvedor(
     new CPF('432.545.678-87'),
     1200
 );
-$funcionario111->sobeNivel();
 $funcionario112 = new Gerente(
     'Ubiratama Araujo de Souza',
     new CPF('321.591.789-54'), 

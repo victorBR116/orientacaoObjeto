@@ -7,9 +7,21 @@
     <title>Olá muaindo</title>
 </head>
 <body>
-    <?php echo "Olá mundo!"; 
+    <?php
+    require_once 'atributos.php';
+    
+    $c1 = new Caneta();
+    $c1->cor = "Preta";
+    $c1->modelo = "Bic";
+    $c1->ponta = 0.5;
+    $c1->carga = "90%";
+    $c1->tampada = false;
 
-        phpinfo();
+    $c1->rabiscar();
+    $c1->tampar();
+    print_r($c1);
+
+        
     ?>
 </body>
 </html>

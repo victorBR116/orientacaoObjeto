@@ -1,18 +1,26 @@
 <?php
 
 class Caneta{
+    public $modelo;
     public $cor;
-    public $tamanho;
+    public $ponta;
+    public $carga;
     public $tampada;
+   
+    public function rabiscar(){
+        echo "<p>rabiscou<p/>";
+
+    }
+
+    public function destampada(){
+        $this->tampada = false;
+
+    }
+
+    public function tampar(){
+        $this->tampada = true;
+    }
 }
 
 
 $loja1 = new Caneta();
-$loja1->cor = "Vermelha";
-$loja1->tamanho = 0.5;
-$loja1->tampada = "Sim";
-
-echo "Caneta é" .PHP_EOL;
-echo $loja1->cor . PHP_EOL;
-echo $loja1->tamanho . PHP_EOL;
-echo $loja1->tampada . PHP_EOL;
