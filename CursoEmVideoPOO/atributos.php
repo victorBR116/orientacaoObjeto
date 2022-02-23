@@ -7,9 +7,12 @@ class Caneta{
     public $carga;
     public $tampada;
    
-    public function rabiscar(){
-        echo "<p>rabiscou<p/>";
-
+    public function rabiscar() {
+        if ($this->tampada == true){
+            echo "Não dá!!! Caneta está tampada";
+        }else{
+            echo "<p>rabiscou<p/>";
+        }
     }
 
     public function destampada(){
