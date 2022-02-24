@@ -27,3 +27,6 @@ class Caneta{
 
 
 $loja1 = new Caneta();
+
+
+//exercicio criar uma rotina com POO
