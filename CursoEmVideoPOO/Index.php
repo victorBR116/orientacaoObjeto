@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php
-    require_once 'atributos.php';
+    require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\controleRemoto.php';
+    require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\controleIndex.php';
     
     $c1 = new Caneta();
     $c1->cor = "Preta";
