@@ -7,22 +7,19 @@
     <title>Olá muaindo</title>
 </head>
 <body>
+    <pre>
     <?php
     require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\controleRemoto.php';
-    require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\controleIndex.php';
+    require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\atributos.php';
     
     $c1 = new Caneta();
     $c1->cor = "Preta";
-    $c1->modelo = "Bic";
-    $c1->ponta = 0.5;
-    $c1->carga = "90%";
-    $c1->tampada = false;
-
+    $c1->modelo = "Bic nova embalagem";
     $c1->rabiscar();
-    $c1->tampar();
-    //print_r($c1);
-
+    $c1->destampada();
+    print_r($c1);
         
     ?>
+    </pre>
 </body>
 </html>

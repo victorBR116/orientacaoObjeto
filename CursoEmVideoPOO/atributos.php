@@ -3,9 +3,9 @@
 class Caneta{
     public $modelo;
     public $cor;
-    public $ponta;
-    public $carga;
-    public $tampada;
+    private $ponta;
+    protected $carga;
+    protected $tampada;
    
     public function rabiscar() {
         if ($this->tampada == true){
