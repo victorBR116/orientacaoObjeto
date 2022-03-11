@@ -1,25 +1,27 @@
 <?php
 
 class Controle{
-    public $ligar;
-    public $botoes;
-    public $pilha;
-    
-    public function ligarControle(){
-        if($this->ligar == true){
-            echo "Controle ligado"; 
-    }else{
-        echo "Controle está desligado";
-    }
-    }
-    public function mudaCanal(){
-        echo "Mudou de canal";   
+    public bool $ligar;
+    public string $botoes;
+    public string $pilha;
+ 
+    public function __construct($l, $b)    
+    { 
+        $this->ligar = $l;
+        $this->botoes = $b;
+       $this->retirouPilhas();
     }
     
-}
+    public function desligarControle(){
+        $this->ligar = false;
+    }
 
-$controle1 = new Controle();
-$controle1->ligar = false;
-$controle1->botoes = "2";
-$controle1->pilha = "Palito";
+    public function trocouDeCanal(){
+        $this->botoes = "Trocou de canal";
+    }
+
+    public function retirouPilhas(){
+        $this->pilha = "Sem pilhas";
+    }
+ }
 
