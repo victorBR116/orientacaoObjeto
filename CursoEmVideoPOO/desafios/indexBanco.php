@@ -11,10 +11,11 @@
     <?php 
     require_once "banco.php";
 
-    $c1 = new Banco(5555, true, "Victor Santos", 500, true); 
+    $c1 = new Banco(5555, true, "Victor Santos", 140, true); 
     $c1->getSaldo();
-    $c1->mensalidadeCC(15.90);
-
+    $c1->sacar(139.9);
+    $c1->mensalidadeCC();
+    $c1->getTipo();
     var_dump($c1);
 
 

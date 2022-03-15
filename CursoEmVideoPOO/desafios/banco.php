@@ -31,7 +31,8 @@ class Banco {
         if($this->saldo < 0){
             echo "Você precisa fechar a conta com o saldo positivo";
         }else{
-            $this->status = "Conta fechada";
+            $this->status = false;
+            
         }    
     }
 
@@ -44,20 +45,30 @@ class Banco {
     }
 
     public function sacar($valorASacar){
-        if($this->$valorASacar < 0 ){
+        if($valorASacar < 0 ){
             print "saques precisam ser positivos";
+            return;
+        }
+        if(($valorASacar - $this->saldo) >= 0){
+            print "Saldo insuficiente";
             return;
         }
         $this->saldo -= $valorASacar;
     }
 
-    public function mensalidadeCC($valorMensalidade){
+    public function mensalidadeCC(){
         if($this->tipo == 1){
+            if($this->saldo < 15.90){
+                print "Saldo insuficiente para debitar a mensalidade, sua conta expira em 30 dias";
+              
+            }
             $valorMensalidade = 15.90;
             $this->saldo -= $valorMensalidade;
-        }else{
-            print "Conta Poupança não tem mensalidade!";
+            
+            return;
         }
+
+        print "Conta Poupança não tem mensalidade!";
     }
 
     public function getConta(){
