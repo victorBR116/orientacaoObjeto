@@ -51,9 +51,10 @@ class Banco {
         $this->saldo -= $valorASacar;
     }
 
-    public function mensalidadeCC(){
+    public function mensalidadeCC($valorMensalidade){
         if($this->tipo == 1){
-            $this->saldo =- 15.90;
+            $valorMensalidade = 15.90;
+            $this->saldo -= $valorMensalidade;
         }else{
             print "Conta Poupança não tem mensalidade!";
         }

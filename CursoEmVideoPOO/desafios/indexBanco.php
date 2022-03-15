@@ -13,6 +13,7 @@
 
     $c1 = new Banco(5555, true, "Victor Santos", 500, true); 
     $c1->getSaldo();
+    $c1->mensalidadeCC(15.90);
 
     var_dump($c1);
 
