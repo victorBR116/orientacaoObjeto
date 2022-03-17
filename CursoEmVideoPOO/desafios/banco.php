@@ -18,7 +18,6 @@ class Banco {
     
     public function abrirConta(){
         $this->numConta = 0000-0;
-        $this->tipo = true;
         $this->dono = "Novo usuario"; 
         if($this->tipo = false){
             $this->saldo = 150;
