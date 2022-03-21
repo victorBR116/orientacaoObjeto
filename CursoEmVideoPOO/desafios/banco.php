@@ -15,7 +15,7 @@ class Banco {
         $this-> saldo = $s;
         $this-> status = $sta;
     }
-    
+    //não funciona
     public function abrirConta(){
         $this->numConta = 0000-0;
         $this->dono = "Novo usuario"; 
