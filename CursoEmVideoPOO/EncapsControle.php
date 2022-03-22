@@ -1,0 +1,3 @@
+<?php
+
+//aprendendo sobre encapsulamento.
