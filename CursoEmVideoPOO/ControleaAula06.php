@@ -33,7 +33,7 @@ class ControleRemoto{
     function getTocando(){
         return $this->tocando;
     }
-
+    
     function setTocando($t){
         $this->tocando = $t;
     }
