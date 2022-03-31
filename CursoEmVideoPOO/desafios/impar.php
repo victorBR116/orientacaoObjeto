@@ -1,9 +1,9 @@
 <?php
-//digitar apenas número impar
+//Functiona com numero impar e par basta trocar.
 
-$numeroImpar = 4;
+$numeroImpar = 1;
 
-while($numeroImpar <= 1000){
+while($numeroImpar <= 10){
 
     $numeroImpar =+ $numeroImpar + 2;
     

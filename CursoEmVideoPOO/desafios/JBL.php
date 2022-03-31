@@ -1,5 +1,5 @@
 <?php
-
+//abstrair da caixa de som
 class JBL
 {
     public bool $ligar;
