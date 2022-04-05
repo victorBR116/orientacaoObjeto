@@ -1,2 +1,2 @@
 # orientacaoObjeto PHP
-# estudando e avançando com orientação a objeto
+# estudando e avançando com orientação a objeto.
