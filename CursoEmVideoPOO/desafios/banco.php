@@ -43,6 +43,7 @@ class Banco {
             return;
         }
         // apenas para exemplo: echo "Saque efetuado com sucesso na conta " . $this->getTipo();
+        
         $this->saldo +=  $valorADepositar;
     }
 

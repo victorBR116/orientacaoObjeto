@@ -1,6 +1,5 @@
 <?php
-//Functiona com numero impar e par basta trocar.
-
+// funciona com impar ou par teste kkkk
 $numeroImpar = 1;
 
 while($numeroImpar <= 10){

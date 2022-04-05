@@ -10,7 +10,7 @@
     <pre>
     <?php 
     require_once "JBL.php";
-
+    
     $jblgo2 = new JBL(false, "Baixo", true, "Auto falante 4089090");
     
     $jblgo2->abaixarVolume();

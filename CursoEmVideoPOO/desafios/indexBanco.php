@@ -11,7 +11,8 @@
     <?php 
     require_once "banco.php";
     //adicionar a parte funcional do abrir um banco att.
-    //adicionar abrir conta - refaturar
+    //adicionar abrir conta - refaturar 
+    //adicionar extends
     $c1 = new Banco(5555, true, "Victor Santos", 2000, true); 
     $c1->mensalidadeCC();
     $c1->getTipo();

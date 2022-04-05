@@ -3,7 +3,7 @@
 class Caneta{
     public $modelo;
     public $cor;
-    private $ponta;
+    // private $ponta;
     protected $carga;
     protected $tampada;
    

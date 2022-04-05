@@ -1,4 +1,5 @@
 <?php
+
 //abstrair da caixa de som
 class JBL
 {
