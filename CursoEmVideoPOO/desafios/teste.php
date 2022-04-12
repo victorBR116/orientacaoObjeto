@@ -1,0 +1,17 @@
+<?php
+class Teste{
+    public $mostrar;
+
+    public function recuperaMostrar(){
+        return $this->mostrar;
+    }
+    public function settMostrar($m){
+        $this->mostrar = $m;
+    }
+}
+
+$imprimir = new Teste();
+
+
+$imprimir->settMostrar("salve salve");
+echo $imprimir->recuperaMostrar();
