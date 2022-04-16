@@ -13,6 +13,6 @@ class Teste{
 $imprimir = new Teste();
 
 
-$imprimir->settMostrar("salve");
+$imprimir->settMostrar(".salve");
 
 echo   $imprimir->recuperaMostrar();
