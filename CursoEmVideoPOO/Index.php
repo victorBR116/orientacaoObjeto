@@ -12,7 +12,7 @@
     require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\controleRemoto.php';
     require_once 'E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\atributos.php';
     
-    //$c1 = new Caneta(); precisa do construct para funcionar
+    //$c1 = new Caneta(); precisa do construct para funcionar - ultima alteração
     $c1->cor = "Preta";
     $c1->modelo = "Bic nova embalagem";
     $c1->rabiscar();
