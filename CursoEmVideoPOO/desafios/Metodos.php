@@ -9,6 +9,7 @@
 <body>
     <pre>
     <?php 
+    //exercicio guanabara
     require_once "JBL.php";
     
     $jblgo2 = new JBL(false, "Baixo", true, "Auto falante 4089090");

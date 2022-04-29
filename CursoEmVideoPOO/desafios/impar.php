@@ -1,5 +1,5 @@
 <?php
-// funciona com impar ou par teste kkkk
+// forma thouzen de descobrir o número par ou impar
 $numeroImpar = 1;
 
 while($numeroImpar <= 10){
