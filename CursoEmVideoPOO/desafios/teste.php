@@ -1,4 +1,5 @@
 <?php
+//apenas um exemplo apagar em breve
 class Teste{
     public $mostrar;
 
