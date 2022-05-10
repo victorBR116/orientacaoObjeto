@@ -1,5 +1,5 @@
 <?php
-//já volto
+//o dia chegou
 interface controlador {
     /*precisa do metodo abstract para funcionar
     public abstract function ligar();

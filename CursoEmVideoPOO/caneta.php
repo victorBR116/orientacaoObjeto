@@ -1,5 +1,5 @@
 <?php
-
+//exemplo aula 3
 class Caneta {
     private string $modelo;
     private string $cor;

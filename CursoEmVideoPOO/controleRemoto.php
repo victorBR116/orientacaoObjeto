@@ -1,5 +1,5 @@
 <?php
-// nada para mudar
+// nada para mudar.
 class Controle{
     public bool $ligar;
     public string $botoes;
