@@ -1,5 +1,5 @@
 <?php
-//aula06..
+//aula06
 interface controlador {
     /*precisa do metodo abstract para funcionar
     public abstract function ligar();
