@@ -7,6 +7,7 @@ class ControleRemoto implements controlador{
     private $tocando;
 
     //metodos especiais
+    //adicionar uma função para usar o mute mesmo com a tv desligada
 
     public function __construct()
     {
