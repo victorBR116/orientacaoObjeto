@@ -102,7 +102,7 @@ class ControleRemoto implements controlador{
         if($this->getLigado() && ! ($this->getTocando())){
             $this->setTocando(true);
         }else{
-            echo "<p>ERRO! Não posso diminuir o volume. </p>";
+            echo "<p>ERRO! Não posso diminuir o volume.. </p>";
         }
     }
 
