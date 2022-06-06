@@ -27,7 +27,7 @@ class luta {
             $vencedor = rand(0,2);
             switch($vencedor){
                 case 0;  //empate
-                    echo " <p>Empate</p>";
+                    echo " <p>Empate.</p>";
                     $this->desafiado->empatarLuta();
                     $this->desafiante->empatarLuta();
                     break; 
