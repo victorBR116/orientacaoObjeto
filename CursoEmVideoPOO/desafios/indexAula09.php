@@ -23,8 +23,9 @@
 
     
     $li[0]->abrir();
-    $li[0]->folhear(50);
-    $li[0]->voltarPagina();
+    $li[0]->folhear(150);
+    $li[0]->avancarpagina();
+    //$li[0]->voltarPagina();
     $li[0]->detalhes();
 
     ?>

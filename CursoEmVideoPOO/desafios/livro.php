@@ -86,7 +86,11 @@ class livro implements publicacao{
 
     public function avancarpagina()
     {
+     if($this->paginaatual >= $this->totpaginas){
+         $this->paginaatual = 0;
+     }else{
      $this->paginaatual++;   
+    }
     }
 
     public function fechar()
@@ -104,6 +108,10 @@ class livro implements publicacao{
     }
     public function voltarPagina()
     {
+        if($this->paginaatual < 0){
+            $this->paginaatual = 0;
+        }else{
         $this->paginaatual --;
+    }
     }
 }
