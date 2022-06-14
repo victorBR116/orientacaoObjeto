@@ -28,11 +28,12 @@
         $j[3]->setNome("carlos");
         $j[3]->setIdade(43);
         $j[3]->setSexo("M");
+        //$j[3]->receberAumento(10);
         //$j[1]->mudarTrabalho();
         //$j[1]->mudarTrabalho()
         //$j[3]->setsalario(123);
         // $j[3]->getsalario();    
-        var_dump($j[1]);
+        var_dump($j[3]);
     ?>
     </pre>
 </body>

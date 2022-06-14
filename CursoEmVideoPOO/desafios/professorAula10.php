@@ -12,8 +12,8 @@ class Professor extends Pessoa{
         $this->salario = $salario;
     }
 
-    public function receberAumento(){
-        $this->salario += 500;
+    public function receberAumento($au){
+        $this->salario += $au;
     }
 
     public function getEspecialidade(){
