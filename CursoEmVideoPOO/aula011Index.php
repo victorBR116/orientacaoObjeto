@@ -13,6 +13,8 @@
     require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\Visitante011.php";
     require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\AlunoAula11.php";
     require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\Bolsista011.php";
+    require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\AlunoTecnico11.php";
+    require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\professor011.php";
     
     $v1 = new Visitante();
     $v1->setNome("Raffa Moreira");
@@ -35,7 +37,13 @@
     $b1->setIdade(14);
     $b1->setSexo("F");
     $b1->PagarMensalidade();
-    var_dump($a1);
+    var_dump($p1);
+
+
+    $a2 = new Tecnico();
+
+    $p1 = new Professor();
+
     ?>
     </pre>
 </body>
