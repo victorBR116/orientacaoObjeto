@@ -15,3 +15,6 @@ class Cachorro extends Mamifero{
         echo "<p>Au au au au</p>";
     }
 }
+
+//polimorfismo de sobreposiçã - mesma assinatura de metodos - classes diferentes
+//polimorfismo de sobrecarga - assinaturas diferentes - mesma classe 
