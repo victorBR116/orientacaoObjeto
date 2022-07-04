@@ -37,12 +37,12 @@
     $b1->setIdade(14);
     $b1->setSexo("F");
     $b1->PagarMensalidade();
-    var_dump($p1);
+    var_dump($b1);
 
 
-    $a2 = new Tecnico();
+    //$a2 = new Tecnico();
 
-    $p1 = new Professor();
+    //$p1 = new Professor();
 
     ?>
     </pre>

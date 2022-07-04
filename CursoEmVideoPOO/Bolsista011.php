@@ -9,7 +9,7 @@ class Bolsista extends Aluno{
 
     public function PagarMensalidade()
     {
-        echo "é bolsista! Então paga com desconto";
+        echo " é bolsista! Então paga com desconto.</p> ";
     }
 
     public function getBolsa(){
