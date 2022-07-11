@@ -1,6 +1,7 @@
 <?php
 require_once "E:\Estudos\Alura\Orientação Objeto\CursoEmVideoPOO\pessoa14.php";
 class Visualizador extends Pessoa
+
 {
     private $login;
     private $totAssistido;
