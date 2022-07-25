@@ -26,7 +26,7 @@
 
     $visu[0]->avaliar();
     //$visu[0]->avaliarNota();
-    $visu[0]->avaliarPoc(85);
+    $visu[0]->avaliarPoc(10);
     print_r($visu);
 
     ?>
